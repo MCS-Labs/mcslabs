@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  transition: 1s;
+}
+
+.App-logo:hover {
+  height: 55vmin;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background-color: #f8f5e4;
+  margin: 0;
+  color: #F97300;
+}
+
+.Topbar {
+  display: flex;
+  border-bottom: #F97300;
+  min-width: 100vh;
+  flex-direction: row;
+  gap: 10px;
+  position: sticky;
+  top: 10px;
+}
+
+.Topbar div {
+  font-size: 1.8vmin;
+  height: 4vmin;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+.Topbar img {
+  transition: .5s;
+  margin-left: 1vmin;
+  height: 5vmin;
+}
+
+.Topbar img:hover {
+  rotate: 180deg;
+}
